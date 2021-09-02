@@ -1,0 +1,54 @@
+.parent_card{
+    margin-top: 40px;
+    display: flex;
+    justify-content:  baseline;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.child_card{
+   
+    padding: 0.4em;
+    margin: 0.4em;
+    height: auto;
+    width: 20vw;
+    box-shadow: 0 0 3px 1px #B9B7B7;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 20em;
+
+}
+.upperPart{
+    padding: 10px;
+}
+.upperPart img{
+    height: 40px;
+
+
+}
+.Card_heading_content{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #0a2c4e;
+}
+
+
+.Card_heading_content_part1{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2em;
+    font-family: sans-serif;
+    color: #ffb600;
+}
+.bottom_content{
+    margin-top: 3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0a2c4e;
+
+}

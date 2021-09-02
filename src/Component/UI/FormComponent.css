@@ -1,0 +1,44 @@
+
+
+.form_part1{
+   
+    padding: 10px;
+    margin: 10px;
+   
+}
+.form_part1 label{
+    font-size: 1.1em;
+   
+    font-family: sans-serif;
+    display: block;
+    margin-bottom: 0.4em;
+    color:#fff;
+   
+}
+
+.form_part1 input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 20rem;
+    height: 2em;
+    max-width: 100%;
+  }
+  .formComponent_actions{
+      margin: 10px;
+  }
+.formComponent_actions button{
+    color: #ffb600;
+    background: transparent;
+    padding: 10px 17px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.formComponent_actions button:hover{
+    background: #ffb600;
+    font-weight: bold;
+    color: #000;
+}
